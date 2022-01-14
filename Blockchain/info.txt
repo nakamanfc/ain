@@ -1,0 +1,13 @@
+node1 0x4320c1D9848aE68E170350f5Be27CF7F06c5a7bE
+password 299792458
+
+node2 0xD66C9CFd5214cBb6C480C22998Fb1d8fdDe045Ee
+password 3141592654
+
+enode://717466c5175a7f999ac6a8fda2230a677ba6ad51c053227f9c26b71c0d140f035ae0b57a24cb95ab9f581b9475fa62f84faad655841b8d921545e65c0000765a@127.0.0.1:0?discport=30301
+
+bootnode -nodekey "./boot.key" -verbosity 7 -addr "127.0.0.1:30301"
+
+geth --networkid 1192 --datadir "./data" --bootnodes enode://717466c5175a7f999ac6a8fda2230a677ba6ad51c053227f9c26b71c0d140f035ae0b57a24cb95ab9f581b9475fa62f84faad655841b8d921545e65c0000765a@127.0.0.1:30301 --port 30303 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8545 --unlock 0x4320c1D9848aE68E170350f5Be27CF7F06c5a7bE --password password.txt --mine --txpool.pricelimit 0 console
+
+geth --networkid 1192 --datadir "./data" --bootnodes enode://717466c5175a7f999ac6a8fda2230a677ba6ad51c053227f9c26b71c0d140f035ae0b57a24cb95ab9f581b9475fa62f84faad655841b8d921545e65c0000765a@127.0.0.1:30301 --port 30304 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8546 --unlock 0xD66C9CFd5214cBb6C480C22998Fb1d8fdDe045Ee --password password.txt console

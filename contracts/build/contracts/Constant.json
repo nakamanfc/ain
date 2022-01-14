@@ -1,0 +1,315 @@
+{
+  "contractName": "Constant",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Store & retrieve value in a variable\",\"kind\":\"dev\",\"methods\":{},\"title\":\"Storage\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/user/mew-supplychain/contracts/contracts/Essential/Essential_Constant.sol\":\"Constant\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/user/mew-supplychain/contracts/contracts/Essential/Essential_Constant.sol\":{\"keccak256\":\"0x8f766a19db2762f196f395fc2f664605369f305a5520e02a85ec91d9ff8dc1bf\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://120f3aa10718447cde1d5533afdc1f87461d663cbb3cab03a8f8adb29b003245\",\"dweb:/ipfs/QmWEnycardWh9Yq3CxVDPmk5EWEFjsKA6R32HZcSdvGdEy\"]}},\"version\":1}",
+  "bytecode": "0x6080604052737ef2e0048f5baede046f6bf797943daf4ed8cb476000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555073fb7628067f0821938fe6d388cd3caf71dd88636b600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034801560b857600080fd5b50603f806100c76000396000f3fe6080604052600080fdfea2646970667358221220dc1220e2cf464ba33b30f8eac7323d7aecab14e498bfce42ae3ce641d0f1ffe064736f6c63430008040033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220dc1220e2cf464ba33b30f8eac7323d7aecab14e498bfce42ae3ce641d0f1ffe064736f6c63430008040033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "149:190:0:-:0;;;214:42;174:82;;;;;;;;;;;;;;;;;;;;293:42;263:72;;;;;;;;;;;;;;;;;;;;149:190;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "149:190:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\n\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\n/**\r\n * @title Storage\r\n * @dev Store & retrieve value in a variable\r\n */\r\ncontract Constant {\r\n    address internal StakeContractAddress = 0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47;\r\n    address internal MewAddress = 0xFb7628067f0821938fE6d388Cd3cAF71dD88636B;\r\n}",
+  "sourcePath": "C:\\Users\\user\\mew-supplychain\\contracts\\contracts\\Essential\\Essential_Constant.sol",
+  "ast": {
+    "absolutePath": "/C/Users/user/mew-supplychain/contracts/contracts/Essential/Essential_Constant.sol",
+    "exportedSymbols": {
+      "Constant": [
+        9
+      ]
+    },
+    "id": 10,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 2,
+          "nodeType": "StructuredDocumentation",
+          "src": "74:73:0",
+          "text": " @title Storage\n @dev Store & retrieve value in a variable"
+        },
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "Constant",
+        "nameLocation": "158:8:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 5,
+            "mutability": "mutable",
+            "name": "StakeContractAddress",
+            "nameLocation": "191:20:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 9,
+            "src": "174:82:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 3,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "174:7:0",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307837454632653030343866356241654465303436663642463739373934336461463445443843423437",
+              "id": 4,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "214:42:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 8,
+            "mutability": "mutable",
+            "name": "MewAddress",
+            "nameLocation": "280:10:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 9,
+            "src": "263:72:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 6,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "263:7:0",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307846623736323830363766303832313933386645366433383843643363414637316444383836333642",
+              "id": 7,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "293:42:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0xFb7628067f0821938fE6d388Cd3cAF71dD88636B"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 10,
+        "src": "149:190:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:300:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/user/mew-supplychain/contracts/contracts/Essential/Essential_Constant.sol",
+    "exportedSymbols": {
+      "Constant": [
+        9
+      ]
+    },
+    "id": 10,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 2,
+          "nodeType": "StructuredDocumentation",
+          "src": "74:73:0",
+          "text": " @title Storage\n @dev Store & retrieve value in a variable"
+        },
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "Constant",
+        "nameLocation": "158:8:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 5,
+            "mutability": "mutable",
+            "name": "StakeContractAddress",
+            "nameLocation": "191:20:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 9,
+            "src": "174:82:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 3,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "174:7:0",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307837454632653030343866356241654465303436663642463739373934336461463445443843423437",
+              "id": 4,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "214:42:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 8,
+            "mutability": "mutable",
+            "name": "MewAddress",
+            "nameLocation": "280:10:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 9,
+            "src": "263:72:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 6,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "263:7:0",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307846623736323830363766303832313933386645366433383843643363414637316444383836333642",
+              "id": 7,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "293:42:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0xFb7628067f0821938fE6d388Cd3cAF71dD88636B"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 10,
+        "src": "149:190:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:300:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-08-05T19:56:57.779Z",
+  "devdoc": {
+    "details": "Store & retrieve value in a variable",
+    "kind": "dev",
+    "methods": {},
+    "title": "Storage",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
